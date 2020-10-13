@@ -1,0 +1,100 @@
+/*general*/
+* {
+  margin: auto;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+} 
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background-color: #141414 ;
+  color: #ffffff ;
+}
+/*header*/
+header {
+	margin-bottom: 100px;
+	height: 2.5cm;
+}
+.upperPanel {
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 100px;
+	cursor: pointer;
+}
+.navbar {
+  overflow: hidden; 
+  color: #e50914;
+  z-index: 1; /*show menu above content*/
+  margin: auto;
+}
+/*unnested menu parts*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #e50914;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+/*nested menu parts*/
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #e50914;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: bold
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #ffffff;
+  border: solid #e50914;
+  border-radius: 20px;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: #e50914;
+  border-radius: 20px; 
+ }
+.subnav-content a {
+  color: #ffffff;
+}
+.subnav-content a:hover {
+  background-color: #141414;
+  color: #e50914;
+}
+.subnav:hover .subnav-content {
+  display: grid;
+}
+
+.button {
+  background-color: #e50914;
+  color:#ffffff;
+  border:2px solid #e50914;
+  transition-duration:0.5 ;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #e50914;
+  font-weight: bold;
+  border-color: #ffffff;
+}
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
