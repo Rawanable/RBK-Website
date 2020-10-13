@@ -13,7 +13,7 @@ body {
 /*header*/
 header {
 	margin-bottom: 100px;
-	height: 2.5cm;
+	height: 0.25cm;
 }
 .upperPanel {
 	width: 100%;
@@ -78,3 +78,20 @@ header {
 .subnav:hover .subnav-content {
   display: grid;
 }
+
+ * {
+  box-sizing:border-box
+}
+
+.mySlides {
+  max-width: 1000px;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+
+
+

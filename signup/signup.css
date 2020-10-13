@@ -25,7 +25,7 @@ p {
 	text-align: left;
 }
 
-button {
+.button {
 	background-color: #e50914;
 	color:#ffffff;
 	border:2px solid #e50914;
@@ -34,7 +34,7 @@ button {
 	font-weight: bold;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
 	background-color: #ffffff;
 	color: #e50914;
 	font-weight: bold;
