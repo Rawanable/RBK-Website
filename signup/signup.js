@@ -1,11 +1,3 @@
-/*
-lower case
-uppercase 
-minimum of 8
-include numbers
-include characters
-*/
-
 document.getElementById("alert").addEventListener("click", checkF);
 
 function checkF(){
